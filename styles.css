@@ -24,11 +24,15 @@ button {
     color: white;
 
 }
-
+img {
+    height: auto;
+    width: 100%;
+}
 .top,
 .footer {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     background-color: #1F2937;
     color: #F9FAF8;
  
@@ -54,9 +58,15 @@ button {
     padding-right: 30px;
 }
 .hero {
-    display: inline-block;
-    padding-left: 10px;
-   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 20px;
+    margin: 30px;
+    height: auto;
+    width: 100%;
+    margin-top: -20px;
 }
 .hero-main{
     font-size: 48px;
@@ -64,19 +74,17 @@ button {
     margin-bottom: -20px;
     
 }
-
 .box {
     box-sizing: border-box;
-    height: 150px;
-    width: 800px;
-    padding: 30px;
-    margin: 30px;
+    width: 300px;
+    height: auto;
     background-color:gray;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
 }
+
 
 .random {
     display: flex;
@@ -101,7 +109,9 @@ button {
     color: white;
     width:600px;
     height:auto;
-    margin: 40px
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 .quote {
     display: flex;
@@ -127,7 +137,10 @@ button {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    
+    margin: 10px;
+    padding: auto;
+    width: auto;
+    height: 100%;
 }
 .footer{
     flex-direction: column;
